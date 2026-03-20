@@ -1,0 +1,17 @@
+{
+    "name": "jansuchanek/naudit",
+    "description": "Doctrine entity audit log for Nette — automatic change tracking with user context",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "doctrine/orm": "^2.14 || ^3.0",
+        "nette/di": "^3.2",
+        "nette/security": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "NAudit\\": "src/"
+        }
+    }
+}
